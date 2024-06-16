@@ -5,3 +5,33 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body, .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    min-height: 100vh;
+    background: pink;
+}
+.wrapper{
+    width: 440px;
+    background: white;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px 30px 35px;
+
+}
+.wrapper img{
+    max-width: 105px;
+}
+.wrapper h1{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.wrapper .content{
+    width: 100%;
+    background: rgb(117, 117, 212)violet;
+}
