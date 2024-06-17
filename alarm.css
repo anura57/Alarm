@@ -34,4 +34,36 @@ body{
 .wrapper .content{
     width: 100%;
     background: rgb(117, 117, 212)violet;
+    justify-content: space-around;
+}
+.wrapper .content.disable{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.content .column
+{
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 1px solid gray;
+    width: calc(100% / 3 - 5px);
+
+}
+.column select{
+    outline: none;
+    border: none;
+    height: 53px;
+    width: 100%;font-size: 19px;
+     font-size: 19px;
+}
+.wrapper button{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 17px 0;
+    border-radius: 5px;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: pink;
 }
